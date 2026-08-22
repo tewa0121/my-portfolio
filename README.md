@@ -1,16 +1,45 @@
-# React + Vite
+# Tewachew Melaku – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Full Stack Developer | React.js | Node.js | MongoDB
 
-Currently, two official plugins are available:
+My personal portfolio website showcasing my skills, projects, and experience as a Full Stack Developer. Built with **React** and **Vite**, featuring a modern dark theme with responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Demo:** [https://YOUR_PROJECT_NAME.vercel.app](https://YOUR_PROJECT_NAME.vercel.app)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Hero Section** – Introduction, profile photo, social links, tech stack badges.
+- **About Me** – Personal summary and development focus.
+- **Skills** – Grouped into Frontend, Backend, Database, and Tools.
+- **Projects** – Filterable grid of 6 real-world projects with GitHub and demo links.
+- **Contact** – Email, phone, location, social icons, and a working contact form.
+- **Responsive** – Fully optimized for mobile, tablet, and desktop.
+- **Dark Theme** – Clean UI with purple accents.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+| Frontend          | Backend Skills   | Icons & Tools    |
+|-------------------|------------------|------------------|
+| React.js          | Node.js          | Lucide React     |
+| Vite              | PHP              | Inline SVGs      |
+| CSS3              | MongoDB          | Git & GitHub     |
+| JavaScript        | SQL              | VS Code          |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or later)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tewa0121/my-portfolio.git
+   cd my-portfolio

@@ -77,7 +77,6 @@ function Hero() {
         </div>
 
         <div className="hero-visual">
-          {/* Profile Photo */}
           <div className="profile-photo">
             <img
               src="/images/profile.jpg"
