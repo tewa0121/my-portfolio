@@ -8,15 +8,21 @@ function About() {
       text: "Building responsive and user-friendly applications with modern web technologies.",
     },
     {
-      icon: <Icons.Code2 size={22} />,   // ✅ all use Code2
+      icon: <Icons.Layers size={22} />,   // ✅ Layers (exists)
       title: "Full Stack Skills",
       text: "Working across frontend, backend, databases, and application architecture.",
     },
     {
-      icon: <Icons.Code2 size={22} />,   // ✅ all use Code2
+      icon: <Icons.Zap size={22} />,      // ✅ Zap (exists – represents speed/problem solving)
       title: "Problem Solving",
       text: "Turning ideas and requirements into practical, functional software solutions.",
     },
+  ];
+
+  const stats = [
+    { number: "6+", label: "Projects Built" },
+    { number: "10+", label: "Technologies" },
+    { number: "Full Stack", label: "Development" },
   ];
 
   return (
@@ -99,9 +105,32 @@ function About() {
               </div>
             </div>
           </div>
+
+          <div className="about-side">
+            <div className="stats-card">
+              {stats.map((stat) => (
+                <div className="stat" key={stat.label}>
+                  <h3>{stat.number}</h3>
+                  <p>{stat.label}</p>
+                </div>
+              ))}
+            </div>
+            <div className="about-mini-card">
+              <div className="mini-icon">
+                <Icons.Code2 size={24} />
+              </div>
+              <div>
+                <h3>My Development Focus</h3>
+                <p>
+                  Creating scalable, intuitive, and efficient
+                  applications with a strong focus on user
+                  experience.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        {/* Highlights with Code2 icons only */}
         <div className="about-highlights">
           {highlights.map((item) => (
             <div className="highlight-card" key={item.title}>
