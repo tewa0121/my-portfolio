@@ -8,7 +8,7 @@ function About() {
       text: "Building responsive and user-friendly applications with modern web technologies.",
     },
     {
-      icon: <Icons.Layers3 size={22} />,
+      icon: <Icons.Layers size={22} />,  // ← changed from Layers3
       title: "Full Stack Skills",
       text: "Working across frontend, backend, databases, and application architecture.",
     },
