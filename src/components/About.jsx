@@ -1,10 +1,22 @@
 import * as Icons from "lucide-react";
 
 function About() {
-  const stats = [
-    { number: "6+", label: "Projects Built" },
-    { number: "10+", label: "Technologies" },
-    { number: "Full Stack", label: "Development" },
+  const highlights = [
+    {
+      icon: <Icons.Code2 size={22} />,
+      title: "Modern Development",
+      text: "Building responsive and user-friendly applications with modern web technologies.",
+    },
+    {
+      icon: <Icons.Layers2 size={22} />,
+      title: "Full Stack Skills",
+      text: "Working across frontend, backend, databases, and application architecture.",
+    },
+    {
+      icon: <Icons.Rocket size={22} />,
+      title: "Problem Solving",
+      text: "Turning ideas and requirements into practical, functional software solutions.",
+    },
   ];
 
   return (
@@ -87,31 +99,19 @@ function About() {
               </div>
             </div>
           </div>
+        </div>
 
-          {/* STATS ONLY – no highlights yet */}
-          <div className="about-side">
-            <div className="stats-card">
-              {stats.map((stat) => (
-                <div className="stat" key={stat.label}>
-                  <h3>{stat.number}</h3>
-                  <p>{stat.label}</p>
-                </div>
-              ))}
-            </div>
-            <div className="about-mini-card">
-              <div className="mini-icon">
-                <Icons.Code2 size={24} />
-              </div>
+        {/* HIGHLIGHTS ONLY */}
+        <div className="about-highlights">
+          {highlights.map((item) => (
+            <div className="highlight-card" key={item.title}>
+              <div className="highlight-icon">{item.icon}</div>
               <div>
-                <h3>My Development Focus</h3>
-                <p>
-                  Creating scalable, intuitive, and efficient
-                  applications with a strong focus on user
-                  experience.
-                </p>
+                <h3>{item.title}</h3>
+                <p>{item.text}</p>
               </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
