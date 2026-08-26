@@ -1,24 +1,6 @@
 import * as Icons from "lucide-react";
 
 function About() {
-  const highlights = [
-    {
-      icon: <Icons.Code2 size={22} />,
-      title: "Modern Development",
-      text: "Building responsive and user-friendly applications with modern web technologies.",
-    },
-    {
-      icon: <Icons.Layers2 size={22} />,
-      title: "Full Stack Skills",
-      text: "Working across frontend, backend, databases, and application architecture.",
-    },
-    {
-      icon: <Icons.Rocket size={22} />,
-      title: "Problem Solving",
-      text: "Turning ideas and requirements into practical, functional software solutions.",
-    },
-  ];
-
   const stats = [
     { number: "6+", label: "Projects Built" },
     { number: "10+", label: "Technologies" },
@@ -106,7 +88,7 @@ function About() {
             </div>
           </div>
 
-          {/* Stats Section */}
+          {/* STATS ONLY – no highlights yet */}
           <div className="about-side">
             <div className="stats-card">
               {stats.map((stat) => (
@@ -130,19 +112,6 @@ function About() {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* Highlights Cards */}
-        <div className="about-highlights">
-          {highlights.map((item) => (
-            <div className="highlight-card" key={item.title}>
-              <div className="highlight-icon">{item.icon}</div>
-              <div>
-                <h3>{item.title}</h3>
-                <p>{item.text}</p>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
     </section>
