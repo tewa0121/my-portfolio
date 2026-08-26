@@ -13,9 +13,9 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      {/* <Projects /> */}    {/* ← Comment out Projects */}
+      {/* <Contact /> */}     {/* ← Comment out Contact */}
+      {/* <Footer /> */}      {/* ← Comment out Footer */}
     </>
   );
 }
