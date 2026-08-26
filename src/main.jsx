@@ -8,6 +8,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <ErrorBoundary> */}
       <App />
-    </ErrorBoundary>
+    {/* </ErrorBoundary> */}
   </React.StrictMode>
 );
