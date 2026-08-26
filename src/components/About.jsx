@@ -8,12 +8,12 @@ function About() {
       text: "Building responsive and user-friendly applications with modern web technologies.",
     },
     {
-      icon: <Icons.Layers2 size={22} />,
+      icon: <Icons.Code2 size={22} />,   // ✅ all use Code2
       title: "Full Stack Skills",
       text: "Working across frontend, backend, databases, and application architecture.",
     },
     {
-      icon: <Icons.Rocket size={22} />,
+      icon: <Icons.Code2 size={22} />,   // ✅ all use Code2
       title: "Problem Solving",
       text: "Turning ideas and requirements into practical, functional software solutions.",
     },
@@ -101,7 +101,7 @@ function About() {
           </div>
         </div>
 
-        {/* HIGHLIGHTS ONLY */}
+        {/* Highlights with Code2 icons only */}
         <div className="about-highlights">
           {highlights.map((item) => (
             <div className="highlight-card" key={item.title}>
