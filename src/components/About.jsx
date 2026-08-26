@@ -8,12 +8,12 @@ function About() {
       text: "Building responsive and user-friendly applications with modern web technologies.",
     },
     {
-      icon: <Icons.Layers size={22} />,   // ✅ Layers (exists)
+      icon: <Icons.Layers size={22} />,
       title: "Full Stack Skills",
       text: "Working across frontend, backend, databases, and application architecture.",
     },
     {
-      icon: <Icons.Zap size={22} />,      // ✅ Zap (exists – represents speed/problem solving)
+      icon: <Icons.Zap size={22} />,
       title: "Problem Solving",
       text: "Turning ideas and requirements into practical, functional software solutions.",
     },
