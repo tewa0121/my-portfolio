@@ -30,19 +30,56 @@ function About() {
               experience across both frontend and backend
               technologies.
             </p>
+
+            <h3>🌐 Frontend Development</h3>
             <p>
-              On the frontend, I work with{" "}
-              <strong>HTML, CSS, JavaScript, and React.js</strong>.
-              On the backend, I mainly use{" "}
-              <strong>Node.js</strong>, while also having experience
-              with <strong>PHP</strong>.
+              I build interactive and responsive user interfaces using
+              <strong> React.js, HTML, CSS, and JavaScript</strong>.
+              I focus on clean, maintainable code and great user experiences.
             </p>
+
+            <h3>⚙️ Backend Development</h3>
             <p>
-              I work with databases such as{" "}
-              <strong>MongoDB and SQL</strong>, and I use{" "}
-              <strong>Git and GitHub</strong> for version control
-              and project management.
+              On the backend, I work with <strong>Node.js</strong> and
+              <strong> PHP</strong> to build robust APIs and server-side
+              applications. I also manage databases like
+              <strong> MongoDB and SQL</strong>.
             </p>
+
+            <h3>🔄 Version Control & API Testing</h3>
+            <p>
+              I use <strong>Git and GitHub</strong> for version control
+              and collaborative development. I also test APIs using
+              <strong> Postman</strong> to ensure they work reliably
+              and efficiently.
+            </p>
+
+            <div className="about-checks">
+              <div>
+                <Icons.CheckCircle2 size={18} />
+                <span>Responsive Web Applications</span>
+              </div>
+              <div>
+                <Icons.CheckCircle2 size={18} />
+                <span>Frontend & Backend Development</span>
+              </div>
+              <div>
+                <Icons.CheckCircle2 size={18} />
+                <span>Database Integration</span>
+              </div>
+              <div>
+                <Icons.CheckCircle2 size={18} />
+                <span>Version Control (Git/GitHub)</span>
+              </div>
+              <div>
+                <Icons.CheckCircle2 size={18} />
+                <span>API Testing (Postman)</span>
+              </div>
+              <div>
+                <Icons.CheckCircle2 size={18} />
+                <span>Clean & Maintainable Code</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
