@@ -6,7 +6,7 @@ function About() {
       <div className="section-container">
         <div className="section-heading">
           <span className="section-label">
-            <Icons.UserRound size={16} />
+            <Icons.User size={16} />   {/* ✅ Changed to User */}
             About Me
           </span>
           <h2>
